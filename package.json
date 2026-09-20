@@ -1,0 +1,21 @@
+{
+  "name": "greencode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "greencode": "dist/index.js"
+  },
+  "scripts": {
+    "dev": "tsc && node dist/index.js",
+    "start": "tsc && node dist/index.js",
+    "test": "tsc && node --test dist/testes/fluxo.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^26.6.2"
+  }
+}

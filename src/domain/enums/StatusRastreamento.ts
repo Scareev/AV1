@@ -1,0 +1,12 @@
+enum StatusRastreamento {
+    AGUARDANDO_TRIAGEM,
+    EM_TRIAGEM,
+    AGUARDANDO_DESMONTE,
+    EM_DESMONTE,
+    PECAS_REAPROVEITADAS,
+    MATERIAL_RECICLAVEL,
+    DESCARTE_SEGURO,
+    BAIXA_DEFINITIVA
+}
+
+export default StatusRastreamento;
